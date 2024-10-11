@@ -1,0 +1,14 @@
+$audetv_feed_app $mol_book2
+	plugins /
+		<= Themme $mol_theme_auto
+	-
+	Menu $mol_page
+		title <= title_default @ \Поиск по kremlin.ru | mid.ru | mil.ru …
+		tools /
+			<= Lights $mol_lights_toggle
+			<= Source_link $mol_link_source
+				uri \https://github.com/audetv/feed-app/tree/main/app
+		body /
+			<= Menu_links $mol_list
+				rows <= menu_rows /
+	-
