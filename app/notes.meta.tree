@@ -1,0 +1,4 @@
+deploy \/audetv/feed/logo/zvezda.svg
+deploy \/audetv/feed/app/manifest.json
+
+include \/mol/offline/install

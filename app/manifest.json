@@ -1,0 +1,15 @@
+{
+	"short_name": "Notes",
+	"name": "Notes.HyOO.ru",
+	"icons": [
+		{
+			"src": "../../audetv/feed/logo/logo.svg",
+			"type": "image/svg",
+			"sizes": "160x160"
+		}		
+	],
+	"start_url": "../..",
+	"background_color": "#000000",
+	"theme_color": "#000000",
+	"display": "standalone"
+}
